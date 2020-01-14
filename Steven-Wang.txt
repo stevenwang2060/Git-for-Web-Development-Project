@@ -1,0 +1,124 @@
+https://codepen.io/stevenwang2060/pen/eYmjzrN
+
+1. What is Semantic HTML?
+Semantic HTML is the idea that all HTML markup have meaning for the content.
+
+2. What is HTML used for?
+HTML is used for the structure of the website.
+ 
+3. What is an attribute and where do we put it?
+An attribute is a word that describes the element used inside the opening tag.
+ 
+4. What is the h1 tag used for? How many times should I use it on a page?
+The h1 tag is used to define the most important heading of the website. It's best to have it be used once on a page.
+
+5. Name two tags that have required attributes
+<a> and <img> have required attributes.
+
+6. What do we put in the head of our HTML document? 
+We put the <header> tag in the head of out HTML document.
+
+7. What is an id? 
+An id is a specific name for an HTML element.
+
+8. What elements can I add an id to? 
+An id can have a class, style, and other elements.
+
+9. How many times can I use the same id on a page? 
+The same id can only be used once.
+
+10. What is a class? 
+A class is used to specify one or more HTML elements.
+
+11. What elements can I add a class to? 
+Any element can be added to a class.
+
+12. How many times can I use the same class on a page? 
+The same class can be called multiple times.
+
+13. How do I get my link to open in a new tab?
+Add a target="_blank" attribute.
+
+14. What is the alt attribute used for?
+The alt attribute is used for reaching an image or a link. It will use an alternate name if it doesn't work.
+
+15. How do I reference an id?
+#idName
+
+16. What is the difference between a section and a div
+A section is a Semantic id while div is presentational.
+
+17. What is CSS used for? 
+CSS is used for styling or designing content.
+
+18. How to we select an element? Example - every h2 on the page
+h2{}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+An id is more specific than a class and it can be used for setting a link. A class can be used for multiple elements such as setting multiple headers to one color.
+
+20. How do we select classes in CSS?
+.className
+
+21. How do we select a p element with a single class of “human””?
+.human p{}
+
+22. What is a parent child selector? When would this be useful? 
+A parent child selector is used to select an element within another element. It can helpful to style a specific paragraph in a section differently.
+
+23. How do you select all links within a div with the class of sidebar?
+.sidebar nav a{}
+
+24. What is a pseudo selector?
+A keyword to select elements within a specific state such as hover.
+
+25. What do we use the change the spacing between lines?
+line-height:
+
+26. What do we use to change the spacing between letters?
+letter-spacing:
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+
+28. How do I add a 1px border around my div that is dotted and black?
+div 
+{
+    border: 1px dotted black;
+}
+
+29. How do I select everything on the page? 
+*{}
+
+30. How do I write a comment in CSS?
+/*comment*/
+
+31. How do I find out what file I am in, when I am using the command line? 
+pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm. The file will get deleted permanently.
+
+34. Why should I use version control?
+To see the changes between or to roll back previous versions.
+
+35. How often should I commit to github?
+Every time a change has been made.
+
+36. What is the command we would use to push our repo up to github? 
+git push
+
+37. Walk me through Lambda's git flow.
+
+    1. Fork repo to create a personal one.
+    2. Add TL as collaborator.
+    3. Clone repo by copying the link and using git clone command.
+    4. Create branch git checkout -b 'firstName-lastName'
+    5. Push branch to Github with git push
+    6. Pull request on Github and use own fork when comparing.
+    7. TL will merge the PR after they have done a review.
